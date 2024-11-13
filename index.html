@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proviz School of AI - Learn cutting-edge AI technologies">
+    <meta name="keywords" content="AI, Machine Learning, Data Science, Online Courses, AI Education">
+    <meta name="author" content="Proviz School of AI">
+    <title>Proviz School of AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="Proviz School of AI Logo">
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#apply" id="applyBtn">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Proviz School of AI</h1>
+            <p>Your future in Artificial Intelligence starts here.</p>
+            <a href="#apply" class="btn" id="applyBtn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Proviz School of AI</h2>
+            <p>We offer world-class education in AI, machine learning, and data science. Our courses are designed to equip you with the skills needed to succeed in the rapidly evolving field of artificial intelligence.</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <ul>
+                <li><h3>Machine Learning Essentials</h3></li>
+                <li><h3>Deep Learning with TensorFlow</h3></li>
+                <li><h3>AI for Business Leaders</h3></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Apply Form Modal -->
+    <div id="applyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Apply to Proviz School of AI</h2>
+            <form id="applicationForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="statement">Why do you want to join?</label>
+                <textarea id="statement" name="statement" required></textarea>
+                
+                <button type="submit" class="btn">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Proviz School of AI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
